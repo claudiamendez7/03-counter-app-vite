@@ -11,7 +11,7 @@ import { HelloWorldApp } from './HelloWorldApp';
 ReactDOM.createRoot (document.getElementById('root')).render(
     <React.StrictMode>
         {/* <CounterApp value={20}/> */}
-        <HelloWorldApp/>
+        <HelloWorldApp title="Hola, soy Clau"/>
     </React.StrictMode>
 );
 
